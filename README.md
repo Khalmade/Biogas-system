@@ -9,9 +9,10 @@ It integrates **community-level data collection**, **biogas process simulation**
 ## 🎯 Objectives  
 1. Survey households to estimate **daily cooking gas demand** and available kitchen waste.  
 2. Model a **biogas system** using anaerobic digestion of household waste.  
-3. Size the system to meet cooking/heating needs.  
-4. Extend the design into a **hybrid microgrid** by adding solar PV for electricity.  
-5. Analyze cost, sustainability, and scalability for underserved communities.  
+3. Size the system to meet cooking/heating needs.
+4. ---###In progress
+5. Extend the design into a **hybrid microgrid** by adding solar PV for electricity.  
+6. Analyze cost, sustainability, and scalability for underserved communities.  
 
 ---
 
@@ -34,7 +35,6 @@ It integrates **community-level data collection**, **biogas process simulation**
 ### 4. Analysis  
 - Compare household needs vs system output.  
 - Economic estimation (cost vs natural gas/kerosene).  
-- Environmental impact (CO₂ reduction vs firewood).  
 
 ---
 
@@ -42,4 +42,19 @@ It integrates **community-level data collection**, **biogas process simulation**
 - Biogas production potential (m³/day) for 20 households.  
 - Energy balance: % of needs covered by biogas vs solar PV.  
 - Cost comparison with current cooking gas prices.    
+
+---
+
+
+## 🛠 Tools Used 
+- **Aspen Plus** → Biogas modeling  
+- **Python** → Pandas, NumPy, Matplotlib  
+- **Excel/CSV** → Household survey data   
+
+---
+
+## 🌍 Impact  
+- Demonstrates how rural communities can leverage **local waste → clean energy**.  
+- Provides an **affordable alternative** to expensive cooking gas and unreliable electricity.  
+- Offers a **scalable model** for sustainable energy access in Africa.  
 
