@@ -1,2 +1,45 @@
-# hybrid_microgrid
+# 🌍 Biogas Microgrid for Rural Households  
+
+## 📖 Project Overview  
+This project models a **small-scale hybrid energy system** (biogas + solar PV) designed to meet the cooking, heating, and electricity needs of **20 rural households in Nigeria**.  
+It integrates **community-level data collection**, **biogas process simulation**, and **hybrid system design** to demonstrate how local waste resources can be transformed into affordable and sustainable energy.  
+
+---
+
+## 🎯 Objectives  
+1. Survey households to estimate **daily cooking gas demand** and available kitchen waste.  
+2. Model a **biogas system** using anaerobic digestion of household waste.  
+3. Size the system to meet cooking/heating needs.  
+4. Extend the design into a **hybrid microgrid** by adding solar PV for electricity.  
+5. Analyze cost, sustainability, and scalability for underserved communities.  
+
+---
+
+## 🔬 Methodology  
+
+### 1. Community Data Collection  
+- Survey 20 households → daily cooking fuel use, food waste, kitchen waste.  
+- Convert waste → methane potential (kg waste → m³ CH₄).  
+
+### 2. Biogas Process Simulation  
+- Tools: **Aspen Plus / Python**.  
+- Inputs: waste feedstock (composition), water, digester conditions (temperature, pH, retention time).  
+- Outputs: methane yield, digestate.  
+
+### 3. Energy System Design  
+- Convert methane yield → cooking gas (LPG equivalent).  
+- Add solar PV to cover electricity demand.  
+- Hybrid sizing (biogas + PV + storage).  
+
+### 4. Analysis  
+- Compare household needs vs system output.  
+- Economic estimation (cost vs natural gas/kerosene).  
+- Environmental impact (CO₂ reduction vs firewood).  
+
+---
+
+## 📊 Expected Outputs  
+- Biogas production potential (m³/day) for 20 households.  
+- Energy balance: % of needs covered by biogas vs solar PV.  
+- Cost comparison with current cooking gas prices.    
 
