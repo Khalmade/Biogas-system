@@ -1,4 +1,4 @@
-# COMMUNITY SURVEY OF DAILY COOKING ACTIVITIES###
+# COMMUNITY SURVEY OF DAILY COOKING ACTIVITIES
 Date:      /       /       /                                                       
 Community: ______________________
 Verbal consent obtained?  ☐ Yes   ☐ No (If "No", end survey.)
@@ -27,4 +27,5 @@ Common waste: pure water nylon, back of onions, egg shells
 ## Cooking Patterns & Preferences
 10. Typical stove type & pot size: _________________
 11. Are you open to using a biogas stove? ☐ Yes ☐ No  Why/why not? __________
+
 
