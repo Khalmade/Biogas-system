@@ -1,8 +1,8 @@
 # 🌍 Biogas Microgrid for Rural Households  
 
 ## 📖 Project Overview  
-This project models a **small-scale biogas system** which will then be extended to a hybrid (biogas + solar PV) designed to meet the cooking, heating, and electricity needs of **20 households in Nigeria**.  
-It integrates **community-level data collection**, **biogas process simulation**, and **hybrid system design** to demonstrate how local waste resources can be transformed into affordable and sustainable energy.  
+This project models a **small-scale biogas system** designed to meet the cooking needs of **20 households in Wumba district**.  
+It integrates **community-level data collection**, **biogas process simulation**, and ** system design** to demonstrate how local waste resources can be transformed into affordable and sustainable energy.  
 
 ---
 
@@ -10,6 +10,7 @@ It integrates **community-level data collection**, **biogas process simulation**
 1. Survey households to estimate **daily cooking gas demand** and available kitchen waste.  
 2. Model a **biogas system** using anaerobic digestion of household waste.  
 3. Size the system to meet cooking/heating needs.
+
 4. ---**In progress**
 5. Extend the design into a **hybrid microgrid** by adding solar PV for electricity.  
 6. Analyze cost, sustainability, and scalability for underserved communities.  
@@ -29,8 +30,6 @@ It integrates **community-level data collection**, **biogas process simulation**
 
 ### 3. Energy System Design  
 - Convert methane yield → cooking gas (LPG equivalent).  
-- Add solar PV to cover electricity demand.  
-- Hybrid sizing (biogas + PV + storage).  
 
 ### 4. Analysis  
 - Compare household needs vs system output.  
@@ -49,12 +48,12 @@ It integrates **community-level data collection**, **biogas process simulation**
 ## 🛠 Tools Used 
 - **Aspen Plus** → Biogas modeling  
 - **Python** → Pandas, NumPy, Matplotlib  
-- **Excel/CSV** → Household survey data   
+- **Excel** → Household survey data   
 
 ---
 
 ## 🌍 Impact  
-- Demonstrates how rural communities can leverage **local waste → clean energy**.  
-- Provides an **affordable alternative** to expensive cooking gas and unreliable electricity.  
+- Demonstrates how these rural communities can use their **local waste → clean energy**.  
+- Provides an **affordable alternative** to expensive cooking gas and also unreliable electricity.  
 - Offers a **scalable model** for sustainable energy access in Africa.  
 
