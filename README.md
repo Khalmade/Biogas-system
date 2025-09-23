@@ -1,8 +1,8 @@
 # 🌍 Biogas Microgrid for Rural Households  
 
 ## 📖 Project Overview  
-This project models a **small-scale biogas system** designed to meet the cooking needs of **20 households in Wumba district**.  
-It integrates **community-level data collection**, **biogas process simulation**, and ** system design** to demonstrate how local waste resources can be transformed into affordable and sustainable energy.  
+This project models a **small-scale biogas system** designed to meet the cooking needs of **20 households in the Wumba district, Abuja, FCT**.  
+It integrates **community-level data collection**, **data analysis**, and **system design** to demonstrate how local waste resources can be transformed into sustainable energy.  
 
 ---
 
@@ -39,8 +39,8 @@ It integrates **community-level data collection**, **biogas process simulation**
 
 ## 📊 Expected Outputs  
 - Biogas production potential (m³/day) for 20 households.  
-- Energy balance: % of needs covered by biogas vs solar PV.  
-- Cost comparison with current cooking gas prices.    
+- Dimensions for the biogas digester.  
+- Biogas system model.    
 
 ---
 
@@ -53,6 +53,6 @@ It integrates **community-level data collection**, **biogas process simulation**
 
 ## 🌍 Impact  
 - Demonstrates how these rural communities can use their **local waste → clean energy**.  
-- Provides an **affordable alternative** to expensive cooking gas and also unreliable electricity.  
+- Provides an **affordable alternative** to depleting cooking gas and other fuels.  
 - Offers a **scalable model** for sustainable energy access in Africa.  
 
