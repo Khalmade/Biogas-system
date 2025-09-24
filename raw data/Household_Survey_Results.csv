@@ -1,0 +1,21 @@
+House ID,Household Size,Primary Fuel,Frequency (Fuel/time),Solid waste/day (Kg),Notes
+W001,3,LPG,12.5kg/45days,1.2,cooks once a workday
+W002,4,LPG,12.5kg/40days,1.8,family size changes
+W003,4,LPG,12.5kg/42days,0.8,mostly baby waste
+W004,1,LPG,3kg/50days,0.3,cooks sparingly
+W005,5,LPG,12.5kg/30days,2.7,
+W006,4,LPG,12.5kg/35days,1.4,
+W007,4,LPG,20kg/65days,1.4,recently switched cylinders
+W008,6,LPG,12.5kg/25days,2.2,
+W009,3,LPG,12.5kg/45days,0.9,
+W010,4,LPG,15kg/35days,1.6,
+W011,10,Charcoal,N2K/2days,3.7,security and nannies
+W012,2,LPG,6kg/50days,0.6,
+W013,3,LPG,12.5kg/45days,1.1,kids at school
+W014,5,LPG,15kg/40days,2.3,
+W015,5,Charcoal,50kg/N12K/7days,8.8,amala business
+W016,7,Charcoal,N4K/5days,1.5,normal workweek rate
+W017,2,LPG,6kg/50days,0.4,
+W018,5,LPG,12.5kg/33days,1.2,
+W019,5,LPG,12.5kg/35days,1.3,
+W020,6,Charcoal,4kg/day,1.3,approx. weight
