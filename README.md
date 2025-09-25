@@ -6,23 +6,21 @@ It integrates **community-level data collection**, **data analysis**, and **syst
 
 ---
 
-## 🎯 Objectives  
-1. Survey households to estimate **daily cooking gas demand** and available kitchen waste.
-2. Survey community abattoir and farms to also estimate the animal waste and dung that can be obtained.
-3. Model a **biogas system** using anaerobic digestion of household waste.  
-4. Size the system to meet cooking/heating needs.
-
-5. ---**In progress**
-6. Extend the design into a **hybrid microgrid** by adding solar PV for electricity.  
-7. Analyze cost, sustainability, and scalability for underserved communities.  
+## 🎯 
+1. Survey households to estimate **daily cooking energy demand** and available kitchen waste.
+2. Survey community abattoir and cattle rearers to also estimate the animal waste and dung that can be obtained.
+3. Calculate the biogas potential from available waste.
+4. Model a **biogas system** using anaerobic digestion of household waste.  
+5. Size the biogas digester required to meet cooking needs.
 
 ---
 
 ## 🔬 Methodology  
 
 ### 1. Community Data Collection  
-- Survey 20 households and agriculture in Wumba → daily cooking fuel use, farm waste, food waste, kitchen waste.  
-- Convert waste → methane potential (kg waste → m³ CH₄).  
+- Survey 20 households, farm, markets in Wumba
+- Get values for → daily cooking fuel use, farm waste, food waste, kitchen waste.  
+- Convert waste → useful energy potential (kg waste → m³ CH₄).  
 
 ### 2. Biogas Process Simulation  
 - Tools: **Aspen Plus / Python**.  
@@ -44,10 +42,10 @@ It integrates **community-level data collection**, **data analysis**, and **syst
 
 ---
 
-## 🛠 Tools Used 
-- **Aspen Plus** → Biogas modeling  
-- **Python** → Pandas, NumPy, Matplotlib  
-- **Excel** → Household survey data   
+## 🛠 Tools Used  
+- **Excel** → Household survey data
+- **Python** → Pandas, NumPy  
+- **Aspen Plus** → Biogas modeling    
 
 ---
 
