@@ -1,4 +1,4 @@
-# 🌍 Biogas System for Wumba District
+# 🌱🏡 Biogas System for Wumba District
 
 ## 📖 Project Overview  
 This project models a **small-scale biogas system** designed to meet the cooking needs of **20 households in the Wumba district, Abuja, FCT**.  
@@ -6,7 +6,7 @@ It integrates **community-level data collection**, **data analysis**, and **syst
 
 ---
 
-## 🎯 
+## 🎯 Objectives
 1. Survey households to estimate **daily cooking energy demand** and available kitchen waste.
 2. Survey community abattoir and cattle rearers to also estimate the animal waste and dung that can be obtained.
 3. Calculate the biogas potential from available waste.
@@ -35,7 +35,7 @@ It integrates **community-level data collection**, **data analysis**, and **syst
 
 ---
 
-## 📊 Expected Outputs  
+## 📊 Outputs  
 - Biogas production potential (m³/day) for 20 households.  
 - Dimensions for the biogas digester.  
 - Biogas system model.    
@@ -49,13 +49,23 @@ It integrates **community-level data collection**, **data analysis**, and **syst
 
 ---
 
-## 🌍 Impact  
+## 📌 Impact  
 - Demonstrates how these rural communities can use their **local waste → clean energy**.  
 - Provides an **affordable alternative** to depleting cooking gas and other fuels.  
 - Offers a **scalable model** for sustainable energy access in Africa.
 
+---
 
-## Survey & Digester Sizing Summary
+## 📝 Assumptions:  
+- Literature biogas yields (m³/kg fresh waste).
+- Volatile Solids: 80%
+- Feedstock TS fractions: kitchen 20%, cow dung 12%, meat waste 25%.  
+- Slurry target TS: 8%.  
+- HRT = 30 days, safety buffer ×1.5.  
+
+---
+
+## 📊 Summary of Results:
 
 | Parameter                | Value        | Notes                                                |
 |--------------------------|--------------|------------------------------------------------------|
@@ -63,14 +73,13 @@ It integrates **community-level data collection**, **data analysis**, and **syst
 | Total useful energy      | ~233.6 MJ/day| Based on the efficiency of the cooking fuels         |
 | Daily cooking fuel need  | ~9.21 kg LPG | Based on survey data and LPG/charcoal equivalence    |
 | Daily biogas need        | ~21.2 m³/day | Based on the useful energy need and stove efficiency |
-| Feedstock available      | ~116.5 kg/day| Kitchen (36.5) + cow dung (50) + meat waste (30)     |
+| Feedstock available      | ~116.5 kg/day| Total of Kitchen + cow dung + meat waste             |
 | Biogas production        | ~25.3 m³/day | Using kitchen, cow dung, meat biogas yields from lit.|
-| Digester design volume   | ~13.4 m³     | HRT, 30-day retention time, 1.5× safety factor       |
+| Digester design volume   | ~13.4 m³     | HRT, 30-day retention time, TS 8%, 1.5× safety factor|
 
-**Assumptions**:  
-- Feedstock TS fractions: kitchen 20%, cow dung 12%, meat waste 25%.  
-- Slurry target TS: 8%.  
-- HRT = 30 days, safety buffer ×1.5.  
-- Literature biogas yields (m³/kg fresh waste).  
+---
+
+**✅ Conclusion**:
+- The biogas potential from the available waste meets the community's energy needs.
 
 
