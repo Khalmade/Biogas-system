@@ -52,5 +52,25 @@ It integrates **community-level data collection**, **data analysis**, and **syst
 ## 🌍 Impact  
 - Demonstrates how these rural communities can use their **local waste → clean energy**.  
 - Provides an **affordable alternative** to depleting cooking gas and other fuels.  
-- Offers a **scalable model** for sustainable energy access in Africa.  
+- Offers a **scalable model** for sustainable energy access in Africa.
+
+
+## Survey & Digester Sizing Summary
+
+| Parameter                | Value        | Notes                                                |
+|--------------------------|--------------|------------------------------------------------------|
+| Households surveyed      | 20           | Wumba District                                       |
+| Total useful energy      | ~233.6 MJ/day| Based on the efficiency of the cooking fuels         |
+| Daily cooking fuel need  | ~9.21 kg LPG | Based on survey data and LPG/charcoal equivalence    |
+| Daily biogas need        | ~21.2 m³/day | Based on the useful energy need and stove efficiency |
+| Feedstock available      | ~116.5 kg/day| Kitchen (36.5) + cow dung (50) + meat waste (30)     |
+| Biogas production        | ~25.3 m³/day | Using kitchen, cow dung, meat biogas yields from lit.|
+| Digester design volume   | ~13.4 m³     | HRT, 30-day retention time, 1.5× safety factor       |
+
+**Assumptions**:  
+- Feedstock TS fractions: kitchen 20%, cow dung 12%, meat waste 25%.  
+- Slurry target TS: 8%.  
+- HRT = 30 days, safety buffer ×1.5.  
+- Literature biogas yields (m³/kg fresh waste).  
+
 
