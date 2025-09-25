@@ -1,4 +1,4 @@
-# 🌍 Biogas Microgrid for Rural Households  
+# 🌍 Biogas System for Wumba District
 
 ## 📖 Project Overview  
 This project models a **small-scale biogas system** designed to meet the cooking needs of **20 households in the Wumba district, Abuja, FCT**.  
