@@ -8,10 +8,10 @@ It integrates **community-level data collection**, **data analysis**, and **syst
 
 ## 🎯 Objectives
 1. Survey households to estimate **daily cooking energy demand** and available kitchen waste.
-2. Survey community abattoir and cattle rearers to also estimate the animal waste and dung that can be obtained.
-3. Calculate the biogas potential from available waste.
+2. Survey community abattoir, cattle rearers, fruit and vegetable sellers to also estimate the animal, fruit and vegetables wastes and dung that can be obtained.
+3. Calculate the biogas potential from available waste sources.
 4. Model a **biogas system** using anaerobic digestion of household waste.  
-5. Size the biogas digester required to meet cooking needs.
+5. Size the biogas digester and the type required to meet energy needs of the households.
 
 ---
 
@@ -22,9 +22,9 @@ It integrates **community-level data collection**, **data analysis**, and **syst
 - Get values for → daily cooking fuel use, farm waste, food waste, kitchen waste.  
 - Convert waste → useful energy potential (kg waste → m³ CH₄).  
 
-### 2. Biogas Process Simulation  
-- Tools: **Aspen Plus / Python**.  
-- Inputs: waste feedstock (composition), water, digester conditions (temperature, pH, retention time).  
+### 2. Biogas Yield Calculation  
+- Tools: **Python**.  
+- Inputs: waste feedstock (composition), constants from literature, digester conditions.  
 - Outputs: methane yield, digestate.  
 
 ### 3. Energy System Design  
@@ -45,13 +45,12 @@ It integrates **community-level data collection**, **data analysis**, and **syst
 ## 🛠 Tools Used  
 - **Excel** → Household survey data
 - **Python** → Pandas, NumPy  
-- **Aspen Plus** → Biogas modeling    
 
 ---
 
 ## 📌 Impact  
 - Demonstrates how these rural communities can use their **local waste → clean energy**.  
-- Provides an **affordable alternative** to depleting cooking gas and other fuels.  
+- Provides an **affordable alternative** to cooking gas and other fuels.  
 - Offers a **scalable model** for sustainable energy access in Africa.
 
 ---
@@ -61,7 +60,7 @@ It integrates **community-level data collection**, **data analysis**, and **syst
 - Volatile Solids: 80%
 - Feedstock TS fractions: kitchen 20%, cow dung 12%, meat waste 25%.  
 - Slurry target TS: 8%.  
-- HRT = 30 days, safety buffer ×1.5.  
+- HRT = 30 days, safety buffer ×1.2.  
 
 ---
 
