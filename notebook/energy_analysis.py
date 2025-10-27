@@ -1,5 +1,6 @@
 "Useful daily household energy demand based on survey data of fuel consumption."
 import pandas as pd
+import numpy as np
 file = "./analysis/Household_Survey_Analysis.csv"
 result = pd.read_csv(file)
 print((result.head()))
@@ -8,7 +9,7 @@ print(result.head())
 # Calculate daily fuel usage
 result['Daily Fuel Usage (KG/day)'] = result['Fuel mass (KG)'] / result['Time taken (days)']
 print(result)
-# Lower Heating Values and efficiencies of fuels
+# Lower Heating Values and efficiencies of fuels (source: engineeringtoolbox.com)
 lhv_lpg = 45.5  # MJ/kg
 lhv_charcoal = 29.6 # MJ/kg
 efficiency_lpg = 0.55
@@ -33,7 +34,7 @@ print(f"Total LPG-equivalent fuel required per day for all surveyed households: 
 total_useful_energy_per_day = result['Useful Energy per day (MJ/day)'].sum()
 print(f"Total useful energy required per day for all surveyed households: {total_useful_energy_per_day:.2f} MJ/day")
 result.to_csv("./analysis/Household_Survey_Analysis_with_LPG_equiv.csv", index=False)
-#Biogas Equivalent Required Per Day
+#Biogas Equivalent Required Per Day (source: energypedia)
 biogas_energy_content = 20 # MJ/m³ biogas
 biogas_stove_efficiency = 0.55
 def required_biogas_yield(total_useful_energy_per_day, biogas_energy_content, biogas_stove_efficiency):

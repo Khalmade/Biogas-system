@@ -1,8 +1,8 @@
 # 🌱🏡 Biogas System for Wumba District
 
 ## 📖 Project Overview  
-This project models a **small-scale biogas system** designed to meet the cooking needs of **20 households in the Wumba district, Abuja, FCT Nigeria**.  
-It integrates **community-level data collection**, **data analysis**, and **system design** to demonstrate how local waste resources can be transformed into sustainable energy.  
+This project models a **small-scale biogas system** designed to meet the cooking needs of **20 households in the Wumba village district in Abuja, FCT Nigeria**.  
+It uses **community-level data collection**, **data analysis**, and **system design** to demonstrate how local waste resources can be transformed into sustainable energy.  
 
 ---
 
@@ -19,7 +19,7 @@ It integrates **community-level data collection**, **data analysis**, and **syst
 
 ### 1. Community Data Collection  
 - Survey 20 households, farm, markets in Wumba
-- Get values for → daily cooking fuel use, farm waste, food waste, kitchen waste.  
+- Get values for → daily cooking fuel use, market waste, food waste, kitchen waste.  
 - Convert waste → useful energy potential (kg waste → m³ CH₄).  
 
 ### 2. Biogas Yield Calculation  
@@ -57,8 +57,6 @@ It integrates **community-level data collection**, **data analysis**, and **syst
 
 ## 📝 Assumptions:  
 - Literature biogas yields (m³/kg fresh waste).
-- Volatile Solids: 80%
-- Feedstock TS fractions: kitchen 20%, cow dung 12%, meat waste 25%.  
 - Slurry target TS: 8%.  
 - HRT = 30 days, safety buffer ×1.2.  
 
@@ -66,19 +64,29 @@ It integrates **community-level data collection**, **data analysis**, and **syst
 
 ## 📊 Summary of Results:
 
-| Parameter                | Value        | Notes                                                |
-|--------------------------|--------------|------------------------------------------------------|
-| Households surveyed      | 20           | Wumba District                                       |
-| Total useful energy      | ~233.6 MJ/day| Based on the efficiency of the cooking fuels         |
-| Daily cooking fuel need  | ~9.21 kg LPG | Based on survey data and LPG/charcoal equivalence    |
-| Daily biogas need        | ~21.2 m³/day | Based on the useful energy need and stove efficiency |
-| Feedstock available      | ~116.5 kg/day| Total of Kitchen + cow dung + meat waste             |
-| Biogas production        | ~25.3 m³/day | Using kitchen, cow dung, meat biogas yields from lit.|
-| Digester design volume   | ~13.4 m³     | HRT, 30-day retention time, TS 8%, 1.5× safety factor|
+| Parameter                | Value         | Note                                                |
+|--------------------------|-------------- |------------------------------------------------------|
+| Households surveyed      | 20            | Wumba village district                               |
+| Fruit/vegetable sellers  | 12            | Wumba market                                         |
+| Total kitchen waste      | 36.5 kg/day   | Wumba District                                       |
+| Orange peels             | 32.35 kg/day  |
+| Pineapple peels          | 48 kg/day     |
+| Watermelon_peel          | 36 kg/day     |
+| Vegetable wastes         | 22 kg/day     |
+| Cow dung                 | 405 kg/day    | Based on estimate of cow herd and literature on dung |
+| Meat (beef) wastes       | 18.5          | Abattoir                                             |
+| Total useful energy      | ~232 MJ/day   | Based on the efficiency of the cooking fuels         |
+| Daily biogas need        | ~21.09 m³/day | Based on useful energy need and stove efficiency     |
+| Biogas production        | ~21.71 m³/day | Using biogas yield values from literature            |
+| Total Solids in Digester | ~135.32 kg/day| TS(%) of all waste streams                           |
+| Feedstock available      | ~116.5 kg/day | Total of Kitchen + cow dung + meat waste             |
+| Digester design volume   | ~60.89 m³     | HRT, 30-day retention time, TS 8%, 1.5× safety factor|
+| Digester diameter        | ~5.37 m³      | HRT, 30-day retention time, TS 8%, 1.5× safety factor|
+| Digester height          | ~2.69 m³      | HRT, 30-day retention time, TS 8%, 1.5× safety factor|
 
 ---
 
 **✅ Conclusion**:
-- The biogas potential from the available waste meets the community's energy needs.
+- The biogas potential from the available waste sources in the Wumba village distrcit is sufficient to meet the cooking needs of at least 20 households surveyed.
 
 
