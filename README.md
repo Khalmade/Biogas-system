@@ -67,8 +67,8 @@ It uses **community-level data collection**, **data analysis**, and **system des
 | Parameter                | Value         | Note                                                |
 |--------------------------|-------------- |------------------------------------------------------|
 | Households surveyed      | 20            | Wumba village district                               |
-| Fruit/vegetable sellers  | 12            | Wumba market                                         |
-| Total kitchen waste      | 36.5 kg/day   | Wumba District                                       |
+| Fruit/vegetable sellers  | 12            | Wumba market survey                                  |
+| Total kitchen waste      | 36.5 kg/day   | Fresh kitchen waste                                  |
 | Orange peels             | 32.35 kg/day  |
 | Pineapple peels          | 48 kg/day     |
 | Watermelon_peel          | 36 kg/day     |
