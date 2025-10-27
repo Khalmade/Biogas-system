@@ -80,9 +80,9 @@ It uses **community-level data collection**, **data analysis**, and **system des
 | Biogas production        | ~21.71 m³/day | Using biogas yield values from literature            |
 | Total Solids in Digester | ~135.32 kg/day| TS(%) of all waste streams                           |
 | Feedstock available      | ~116.5 kg/day | Total of Kitchen + cow dung + meat waste             |
-| Digester design volume   | ~60.89 m³     | HRT, 30-day retention time, TS 8%, 1.5× safety factor|
-| Digester diameter        | ~5.37 m³      | HRT, 30-day retention time, TS 8%, 1.5× safety factor|
-| Digester height          | ~2.69 m³      | HRT, 30-day retention time, TS 8%, 1.5× safety factor|
+| Digester design volume   | ~60.89 m³     | 30-day retention time, TS 8%, 1.2× safety factor     |
+| Digester diameter        | ~5.37 m³      | $V = \frac{\pi}{4} D^2 H$.                           |
+| Digester height          | ~2.69 m³      |                                                      |
 
 ---
 
