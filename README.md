@@ -1,7 +1,7 @@
 # 🌱🏡 Biogas System for Wumba District
 
 ## 📖 Project Overview  
-This project models a **community biogas system** designed to meet the cooking needs of housesholds in the Wumba village district in Abuja, FCT Nigeria**.  
+This project models a **community biogas system** designed to meet the cooking needs of housesholds in the Wumba village district in Abuja, FCT Nigeria.  
 It uses **community-level data collection**, **data analysis**, and **system design** to demonstrate how local waste resources can be transformed into sustainable energy.  
 
 ---
