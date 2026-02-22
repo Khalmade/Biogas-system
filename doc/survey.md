@@ -30,7 +30,8 @@ Verbal consent obtained?  ☐ Yes   ☐ No (If "No", end survey.)
 11. Have you heard of biogas? ☐ Yes ☐ No
 12. Are you open to using a biogas stove? ☐ Yes ☐ No  Why/why not? __________
 
-    Collected by: Khalifa (Khalil) Omade
+    Collected by: Khalil :)
+
 
 
 
